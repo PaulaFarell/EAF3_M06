@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widith=device-widith, initial-scale=1.0">
+        <title> Pixel Climber</title>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pixel Climber</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="videojoc.html">Sobre Pixel Climber</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contacte">
+                <h2>Contacta'ns</h2>
+                <form action="submit.php" methood="post">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required><br><br>
+                    <label for="cognoms">Cognoms:</label>
+                    <input type="text" id="cognoms" name="cognoms" required><br><br>
+                    <label for="adreça">Adreça:</label>
+                    <input type="text" id="adreça" name="adreça" required><br><br>
+                    <label for="ciutat">Ciutat:</label>
+                    <select id="ciutat" name="ciutat" required>
+                        <option value="">Seleccioneu una ciutat</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Girona">Girona</option>
+                        <option value="Lleida">Lleida</option>
+                        <option value="Tarragona">Tarragona</option>
+                    </select><br><br>
+                    <label for="data_naixement">Data de naixement</label>
+                    <input type="date" id="data_naixement" name="data_naixement" required><br><br>
+                    <label for="sexe">Sexe:</label>
+                    <input type="radio" id="home" name="home" value="home">
+                    <label for="home">M</label><br>
+                    <input type="radio" id="dona" name="dona" value="dona">
+                    <label for="dona">F</label><br>
+                    <input type="radio" id="no_binari" name="no_binari" value="no_binari">
+                    <label for="no_binari">NB</label><br>
+                    <label for="correu_electronic">Correu electrònic:</label><br>
+                    <input type="text" id="correu_electronic" name="correu_electronic"><br>
+                    <label for="contrasenya">Contrasenya:</label><br>
+                    <input type="password" id="contrasenya" name="contrasenya">
+                    <input type="submit" id="envia" name="envia">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Píxel Climber - 2024 Tots els drets reservats</p>
+            <a href="">Correu electrònic</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
+            <a href="">Telèfon</a>
+        </footer>
+    </body>
+</html> 
