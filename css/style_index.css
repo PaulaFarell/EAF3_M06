@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+  }
+  
+  .videojuego {
+    position: absolute;
+    width: 1920px;
+    height: 2400px;
+  }
+  
+  .homepage {
+    position: absolute;
+    width: 1920px;
+    height: 2400px;
+    background: #FFFBDC;
+  }
+  
+  .group-18 {
+    position: absolute;
+    width: 1781px;
+    height: 634px;
+    left: 108px;
+    top: 417px;
+  }
+  
+  .rectangle-image-block {
+    position: absolute;
+    width: 879px;
+    height: 634px;
+    left: 108px;
+    top: 417px;
+    background: #EEEEEE;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .what-is-pixel-climber {
+    position: center;
+    width: 804px;
+    height: 51px;
+    left: 1085px;
+    top: 626px;
+    font-family: 'Oldenburg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #FBBE9A;
+  }
+  
+  .description-text {
+    position: center;
+    width: 769px;
+    height: 129px;
+    left: 1085px;
+    top: 713px;
+    font-family: 'Oldenburg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(137, 154, 161, 0.8);
+  }
+  
+  .header {
+    position: absolute;
+    width: 1920px;
+    height: 141px;
+    left: 0px;
+    top: 207px;
+    background: #FFFFFF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  
+  .group-23 {
+    position: absolute;
+    width: 1920px;
+    height: 207px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .pixel-climber-logo {
+    position: left;
+    width: 396px;
+    height: 70px;
+    left: 51px;
+    top: 102px;
+    font-family: 'Oldenburg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: -0.015em;
+    color: #FAD889;
+  }
+  
+  .navigation-bar {
+    position: absolute;
+    width: 1022px;
+    height: 68px;
+    left: 889px;
+    top: 109px;
+    font-family: 'Oldenburg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #FAF5C8;
+  }
+  
+  .vector-1 {
+    position:absolute
+  }
